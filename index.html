@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nandumon KS Junior Developer</title>
+<meta name="description" content="Portfolio of Nandumon K S, Junior software developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV : editor tab bar ===== -->
+<header class="tabbar" id="tabbar">
+  <div class="tabbar-inner">
+    <a href="#top" class="logo" aria-label="Home">
+      <span class="logo-bracket">&lt;</span>NS<span class="logo-bracket">/&gt;</span>
+    </a>
+
+    <nav class="tabs" aria-label="Primary">
+      <a href="#top"      class="tab is-active" data-tab>index<span class="tab-ext"></span></a>
+      <a href="#about"    class="tab" data-tab>about<span class="tab-ext"></span></a>
+      <a href="#skills"   class="tab" data-tab>skills<span class="tab-ext"></span></a>
+      <a href="#work"     class="tab" data-tab>Cirtification<span class="tab-ext"></span></a>
+      <a href="#experience" class="tab" data-tab>log<span class="tab-ext"></span></a>
+      <a href="#contact"  class="tab" data-tab>contact<span class="tab-ext"></span></a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+      <span class="comment-slash">//</span> theme: <span id="themeLabel">light</span>
+    </button>
+
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="#top" data-tab>index.html</a>
+    <a href="#about" data-tab>about.js</a>
+    <a href="#skills" data-tab>skills.json</a>
+    <a href="#work" data-tab>work.tsx</a>
+    <a href="#experience" data-tab>log.git</a>
+    <a href="#contact" data-tab>contact.md</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Available for new projects</p>
+        <h1 class="hero-title">Nandumon K S</h1>
+        <p class="hero-role">Junior Developer — I design and build fast, accessible products end to end—from data schemas to launch—as a junior developer.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-code reveal" aria-hidden="false">
+        <div class="code-card">
+          <div class="code-card-head">
+            <span class="code-dot dot-red"></span>
+            <span class="code-dot dot-yellow"></span>
+            <span class="code-dot dot-green"></span>
+            <span class="code-filename">profile.js</span>
+          </div>
+          <pre class="code-body"><code><span class="tok-kw">const</span> <span class="tok-var">Junior Developer</span> <span class="tok-op">=</span> <span class="tok-punc">{</span>
+  <span class="tok-key">name</span><span class="tok-punc">:</span> <span class="tok-str">"Nandumon K S"</span><span class="tok-punc">,</span>
+  <span class="tok-key">role</span><span class="tok-punc">:</span> <span class="tok-str">" Junior Software Developer"</span><span class="tok-punc">,</span>
+  <span class="tok-key">location</span><span class="tok-punc">:</span> <span class="tok-str">"Peruva Kottayam· UTC+5:30"</span><span class="tok-punc">,</span>
+  <span class="tok-key">Experience</span><span class="tok-punc">:</span> <span class="tok-num">"Fresher"</span><span class="tok-punc">,</span>
+  <span class="tok-key">status</span><span class="tok-punc">:</span> <span class="tok-str">"open to work"</span><span class="tok-punc">,</span>
+<span class="tok-punc">};</span><span class="cursor" aria-hidden="true"></span></code></pre>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+      <span>scroll</span>
+      <svg width="12" height="18" viewBox="0 0 12 18" fill="none"><path d="M6 1v15M1 11l5 5 5-5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="section-head reveal">
+      <!-- <p class="eyebrow mono">01 · about.js</p> -->
+      <h2>How I work</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I’m a Junior software developer who turns ambiguous problems into software people enjoy using. I work across clean API design, pragmatic front-end architecture, and the infrastructure needed to keep it reliable.</p>
+        <p>I value readable code, honest estimates, and shipping software that’s easy to change—because it always needs to change. Outside client work, I contribute to open-source tooling projects and write occasional notes on performance and developer experience.
+</p>
+      
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <div class="section-head reveal">
+       <!--<p class="eyebrow mono">02 · skills.json</p>-->
+      <h2>Toolbox</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h3><span class="comment-slash">//</span> languages</h3>
+        <div class="tag-row">
+          <span class="tag">C</span>
+          <span class="tag">C++</span>
+          <span class="tag">Java</span>
+          <span class="tag">Php</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+</div>
+  </section>
+      
+
+  <!-- ===== WORK ===== -->
+  <section id="work" class="section work">
+    <div class="section-head reveal">
+      <!-- <p class="eyebrow mono">03 · work.tsx</p> -->
+      <h2>Cirtifications</h2>
+    </div>
+
+    <div class="work-grid">
+
+      <article class="work-card reveal">
+        <div class="work-card-head">
+          <span class="code-dot dot-red"></span><span class="code-dot dot-yellow"></span><span class="code-dot dot-green"></span>
+          <span class="code-filename">AI UDAAN PROGRAM/README.md</span>
+        </div>
+        <div class="work-card-body">
+          <h3>AI UDAAN PROGRAM</h3>
+          <p>AI Udaan is an initiative focused on promoting Artificial Intelligence (AI), digital skills, innovation, and technology awareness among students, professionals, educational institutions, and organisations. Its main objective is to encourage AI learning, support skill development, and prepare people for emerging career opportunities in the field of artificial intelligence.</p>
+          <div class="tag-row small">
+          <!-- <span class="tag">Next.js</span><span class="tag">Stripe</span><span class="tag">PostgreSQL</span> -->
+          </div>
+          <div class="work-links">
+            <a href="https://drive.google.com/file/d/1wbX1zKfFZ2P2USwzriKpUageM0W9O4zc/view?usp=drive_link" class="work-link">view certificate</a>
+           <!-- <a href="#" class="work-link">Source ↗</a> -->
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <div class="work-card-head">
+          <span class="code-dot dot-red"></span><span class="code-dot dot-yellow"></span><span class="code-dot dot-green"></span>
+          <span class="code-filename">PROMPT LIKE ENGINEER/README.md</span>
+        </div>
+        <div class="work-card-body">
+          <h3>Prompt Like Engineer</h3>
+          <p>Prompt Like an Engineer is a free online course offered by Cisco Networking Academy that helps students learn how to communicate effectively with Artificial Intelligence (AI) tools by writing clear, structured, and effective prompts. The course focuses on using AI responsibly, improving the quality of AI-generated responses, evaluating results for accuracy, and applying AI tools to solve real-world problems.</p>
+          <div class="tag-row small">
+           <!-- <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Redis</span> -->
+          </div>
+          <div class="work-links">
+            <a href="https://drive.google.com/file/d/1-2gz_4hZyMwukpORZ-vsw053Nyu-_QWr/view?usp=drive_link" class="work-link">view certificate</a>
+            <!--<a href="#" class="work-link"></a>-->
+          </div>
+        </div>
+      </article>
+<!--
+      <article class="work-card reveal">
+        <div class="work-card-head">
+          <span class="code-dot dot-red"></span><span class="code-dot dot-yellow"></span><span class="code-dot dot-green"></span>
+          <span class="code-filename">fieldkit-mobile/README.md</span>
+        </div>
+        <div class="work-card-body">
+          <h3>FieldKit</h3>
+          <p>Offline-first field data collection app for inspection teams, syncing seamlessly once connectivity returns.</p>
+          <div class="tag-row small">
+            <span class="tag">React Native</span><span class="tag">SQLite</span><span class="tag">AWS</span>
+          </div>
+          <div class="work-links">
+            <a href="#" class="work-link">Case study ↗</a>
+            <a href="#" class="work-link">Source ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <div class="work-card-head">
+          <span class="code-dot dot-red"></span><span class="code-dot dot-yellow"></span><span class="code-dot dot-green"></span>
+          <span class="code-filename">devtools-cli/README.md</span>
+        </div>
+        <div class="work-card-body">
+          <h3>devtools-cli</h3>
+          <p>Open-source CLI that scaffolds and lints internal microservices; adopted by 6 engineering teams in-house.</p>
+          <div class="tag-row small">
+            <span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">Docker</span>
+          </div>
+          <div class="work-links">
+            <a href="#" class="work-link">npm ↗</a>
+            <a href="#" class="work-link">Source ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+-->
+  
+  <!-- ===== CONTACT ===== -->
+
+  <section id="contact" class="section contact">
+    <div  class="contact-inner reveal">
+      <div stylee="width: 800px;">
+   
+      <h2>Let's build something</h2>
+      <p class="contact-copy">Have a project in mind, or just want to talk shop? My inbox is open.</p>
+      <a href="nandhusunil13@gmail.com" class="contact-email">nandhusunil13@gmail.com</a>
+
+      <div class="contact-links">
+        <a href="https://github.com/Nandhu-Sunil" class="contact-link">GitHub ↗</a>
+        <a href="#" class="contact-link">LinkedIn ↗</a>
+        <a href="#" class="contact-link">X / Twitter ↗</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><span class="comment-slash">//</span> built with html, css &amp; javascript — no framework required</p>
+  <p>© <span id="year"></span> Nandumon K S</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
