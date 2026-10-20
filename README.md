@@ -26,7 +26,7 @@ portfolio/
 🚀 Run Locally
 No package installation or build step is required.
 1. Clone this repository:
-   git clone https://github.com/Nandhu-Sunil/YOUR-REPOSITORY-NAME.git
+   git clone https://github.com/Nandhu-Sunil/portfolio-website.git
 2. Open the project folder:
    cd YOUR-REPOSITORY-NAME
 3. Open index.html in your browser.
